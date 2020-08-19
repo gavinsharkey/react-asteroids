@@ -11,3 +11,55 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.game-container {
+  position: relative;
+  background-color: #222;
+  margin: auto;
+  margin-top: 20px;
+  width: 900px;
+  height: 500px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 208px;
+  left: 254px;
+  font-family: 'Space Mono', monospace;
+}
+
+.game-title {
+  color: #eee;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.start-button {
+  padding: 15px;
+  border: 5px solid #444;
+  width: 100%;
+}
+
+.player {
+  position: absolute;
+}
+
+.exit-button {
+  position: absolute;
+  right: 1px;
+  top: 1px;
+  padding: 5px;
+}
+
+.asteroid {
+  position: absolute;
+  display: flex;
+  width: 45px;
+  height: 45px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
